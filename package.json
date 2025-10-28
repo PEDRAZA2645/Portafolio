@@ -1,7 +1,7 @@
 {
-  "name": "tailwindcss",
+  "name": "portafolio",
   "version": "1.0.0",
-  "description": "Proyecto de portafolio Andres Moreno Pedraza",
+  "description": "Proyecto de portafolio Jefferson Andres Moreno Pedraza",
   "main": "tailwind.config.js",
   "scripts": {
     "build": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css",
