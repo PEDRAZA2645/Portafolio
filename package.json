@@ -4,7 +4,8 @@
   "description": "Proyecto de portafolio Andres Moreno Pedraza",
   "main": "tailwind.config.js",
   "scripts": {
-    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css",
+    "dev": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
   },
   "author": "Jefferson Andres Moreno Pedraza",
   "license": "ISC",
