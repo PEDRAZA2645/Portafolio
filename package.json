@@ -4,7 +4,7 @@
   "description": "Proyecto de portafolio Jefferson Andres Moreno Pedraza",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./input.css -o ./assets/output.css --minify",
+    "build": "npx --no-install tailwindcss -i ./input.css -o ./assets/output.css --minify",
     "dev": "npx tailwindcss -i ./input.css -o ./assets/output.css --watch"
   },
   "author": "Jefferson Andres Moreno Pedraza",
