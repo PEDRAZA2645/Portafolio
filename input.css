@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    /* Colores */
+    --color-primary: #09f;
+    --color-primary-light: #ceecff;
+    --color-primary-dark: rgb(0, 22, 83);
+    --colo-andy-lol: #f1f1f1;
+    --color-andy-lol-light: #ceecff;
+  
+    --color-html: #E44D26;
+  
+    /* Fuentes */
+    --font-display: 'Inter', system-ui, sans-serif;
+    
+    /* Breakpoints */
+    --breakpoint-xs: 350px;
+  }
+
+  .social-class {
+    @apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+  }

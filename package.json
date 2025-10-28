@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "Proyecto de portafolio Andres Moreno Pedraza",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+  },
+  "author": "Jefferson Andres Moreno Pedraza",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}
